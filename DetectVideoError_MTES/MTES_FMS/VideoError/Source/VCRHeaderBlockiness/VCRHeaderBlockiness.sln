@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SobelMagNPhase60", "SobelMagNPhase60\SobelMagNPhase60.vcproj", "{B606DEF0-83C5-405C-B740-F615CA1CB944}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tan_table", "tan_table\tan_table.vcproj", "{18F8B9DC-A132-45A7-A94A-884A2D5C284D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ApplyWeightHistogram", "ApplyWeightHistogram\ApplyWeightHistogram.vcproj", "{61AB48A7-E1B1-457A-9E3B-D1AD63A30A3D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HistogramCalculateUint8", "HistogramCalculateUint8\HistogramCalculateUint8.vcproj", "{E497CCE5-D998-4570-A927-AD4712A6008B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LengthHistogramRECT", "LengthHistogramRECT\LengthHistogramRECT.vcproj", "{41AD5E83-F226-4BC8-9669-A7F03F99E7EB}"
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 6
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = SobelMagNPhase60\\SobelMagNPhase60.vcproj
+		SccLocalPath1 = .
+		SccProjectFilePathRelativizedFromConnection1 = SobelMagNPhase60\\
+		SccProjectUniqueName2 = tan_table\\tan_table.vcproj
+		SccLocalPath2 = .
+		SccProjectFilePathRelativizedFromConnection2 = tan_table\\
+		SccProjectUniqueName3 = ApplyWeightHistogram\\ApplyWeightHistogram.vcproj
+		SccLocalPath3 = .
+		SccProjectFilePathRelativizedFromConnection3 = ApplyWeightHistogram\\
+		SccProjectUniqueName4 = HistogramCalculateUint8\\HistogramCalculateUint8.vcproj
+		SccLocalPath4 = .
+		SccProjectFilePathRelativizedFromConnection4 = HistogramCalculateUint8\\
+		SccProjectUniqueName5 = LengthHistogramRECT\\LengthHistogramRECT.vcproj
+		SccLocalPath5 = .
+		SccProjectFilePathRelativizedFromConnection5 = LengthHistogramRECT\\
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B606DEF0-83C5-405C-B740-F615CA1CB944}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B606DEF0-83C5-405C-B740-F615CA1CB944}.Debug|Win32.Build.0 = Debug|Win32
+		{B606DEF0-83C5-405C-B740-F615CA1CB944}.Release|Win32.ActiveCfg = Release|Win32
+		{B606DEF0-83C5-405C-B740-F615CA1CB944}.Release|Win32.Build.0 = Release|Win32
+		{18F8B9DC-A132-45A7-A94A-884A2D5C284D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{18F8B9DC-A132-45A7-A94A-884A2D5C284D}.Debug|Win32.Build.0 = Debug|Win32
+		{18F8B9DC-A132-45A7-A94A-884A2D5C284D}.Release|Win32.ActiveCfg = Release|Win32
+		{18F8B9DC-A132-45A7-A94A-884A2D5C284D}.Release|Win32.Build.0 = Release|Win32
+		{61AB48A7-E1B1-457A-9E3B-D1AD63A30A3D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{61AB48A7-E1B1-457A-9E3B-D1AD63A30A3D}.Debug|Win32.Build.0 = Debug|Win32
+		{61AB48A7-E1B1-457A-9E3B-D1AD63A30A3D}.Release|Win32.ActiveCfg = Release|Win32
+		{61AB48A7-E1B1-457A-9E3B-D1AD63A30A3D}.Release|Win32.Build.0 = Release|Win32
+		{E497CCE5-D998-4570-A927-AD4712A6008B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E497CCE5-D998-4570-A927-AD4712A6008B}.Debug|Win32.Build.0 = Debug|Win32
+		{E497CCE5-D998-4570-A927-AD4712A6008B}.Release|Win32.ActiveCfg = Release|Win32
+		{E497CCE5-D998-4570-A927-AD4712A6008B}.Release|Win32.Build.0 = Release|Win32
+		{41AD5E83-F226-4BC8-9669-A7F03F99E7EB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{41AD5E83-F226-4BC8-9669-A7F03F99E7EB}.Debug|Win32.Build.0 = Debug|Win32
+		{41AD5E83-F226-4BC8-9669-A7F03F99E7EB}.Release|Win32.ActiveCfg = Release|Win32
+		{41AD5E83-F226-4BC8-9669-A7F03F99E7EB}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

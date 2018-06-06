@@ -1,0 +1,78 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sobel8Hypotenuse", "Sobel8Hypotenuse\Sobel8Hypotenuse.vcproj", "{44351CC3-C778-43FE-8D17-57BD4CCD23C3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sobel8RightAngle", "Sobel8RightAngle\Sobel8RightAngle.vcproj", "{59589A29-DF67-4828-9157-B5ACA492C4EC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sobel60Hypotenuse", "Sobel60Hypotenuse\Sobel60Hypotenuse.vcproj", "{E82B66CB-0387-4E9C-8D34-E12CE971B707}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sobel60RightAngle", "Sobel60RightAngle\Sobel60RightAngle.vcproj", "{9DDFE0D9-99B3-40D1-B3AD-39DFCE906BA5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sobel16Hypotenuse", "Sobel16Hypotenuse\Sobel16Hypotenuse.vcproj", "{0BFC01EA-D694-44BF-9080-C9BF8FE72241}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sobel16RightAngle", "Sobel16RightAngle\Sobel16RightAngle.vcproj", "{096DE295-B159-455D-8BC0-F79C004F92B4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EraseAreaPhase16", "EraseAreaPhase16\EraseAreaPhase16.vcproj", "{A3DF4541-78B4-456A-8A12-6E4E5D9BA280}"
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 7
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Sobel60Hypotenuse\\Sobel60Hypotenuse.vcproj
+		SccLocalPath1 = .
+		SccProjectFilePathRelativizedFromConnection1 = Sobel60Hypotenuse\\
+		SccProjectUniqueName2 = Sobel60RightAngle\\Sobel60RightAngle.vcproj
+		SccLocalPath2 = .
+		SccProjectFilePathRelativizedFromConnection2 = Sobel60RightAngle\\
+		SccProjectUniqueName3 = Sobel8Hypotenuse\\Sobel8Hypotenuse.vcproj
+		SccLocalPath3 = .
+		SccProjectFilePathRelativizedFromConnection3 = Sobel8Hypotenuse\\
+		SccProjectUniqueName4 = Sobel8RightAngle\\Sobel8RightAngle.vcproj
+		SccLocalPath4 = .
+		SccProjectFilePathRelativizedFromConnection4 = Sobel8RightAngle\\
+		SccProjectUniqueName5 = Sobel16Hypotenuse\\Sobel16Hypotenuse.vcproj
+		SccLocalPath5 = .
+		SccProjectFilePathRelativizedFromConnection5 = Sobel16Hypotenuse\\
+		SccProjectUniqueName6 = Sobel16RightAngle\\Sobel16RightAngle.vcproj
+		SccLocalPath6 = .
+		SccProjectFilePathRelativizedFromConnection6 = Sobel16RightAngle\\
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{44351CC3-C778-43FE-8D17-57BD4CCD23C3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{44351CC3-C778-43FE-8D17-57BD4CCD23C3}.Debug|Win32.Build.0 = Debug|Win32
+		{44351CC3-C778-43FE-8D17-57BD4CCD23C3}.Release|Win32.ActiveCfg = Release|Win32
+		{44351CC3-C778-43FE-8D17-57BD4CCD23C3}.Release|Win32.Build.0 = Release|Win32
+		{59589A29-DF67-4828-9157-B5ACA492C4EC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{59589A29-DF67-4828-9157-B5ACA492C4EC}.Debug|Win32.Build.0 = Debug|Win32
+		{59589A29-DF67-4828-9157-B5ACA492C4EC}.Release|Win32.ActiveCfg = Release|Win32
+		{59589A29-DF67-4828-9157-B5ACA492C4EC}.Release|Win32.Build.0 = Release|Win32
+		{E82B66CB-0387-4E9C-8D34-E12CE971B707}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E82B66CB-0387-4E9C-8D34-E12CE971B707}.Debug|Win32.Build.0 = Debug|Win32
+		{E82B66CB-0387-4E9C-8D34-E12CE971B707}.Release|Win32.ActiveCfg = Release|Win32
+		{E82B66CB-0387-4E9C-8D34-E12CE971B707}.Release|Win32.Build.0 = Release|Win32
+		{9DDFE0D9-99B3-40D1-B3AD-39DFCE906BA5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9DDFE0D9-99B3-40D1-B3AD-39DFCE906BA5}.Debug|Win32.Build.0 = Debug|Win32
+		{9DDFE0D9-99B3-40D1-B3AD-39DFCE906BA5}.Release|Win32.ActiveCfg = Release|Win32
+		{9DDFE0D9-99B3-40D1-B3AD-39DFCE906BA5}.Release|Win32.Build.0 = Release|Win32
+		{0BFC01EA-D694-44BF-9080-C9BF8FE72241}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0BFC01EA-D694-44BF-9080-C9BF8FE72241}.Debug|Win32.Build.0 = Debug|Win32
+		{0BFC01EA-D694-44BF-9080-C9BF8FE72241}.Release|Win32.ActiveCfg = Release|Win32
+		{0BFC01EA-D694-44BF-9080-C9BF8FE72241}.Release|Win32.Build.0 = Release|Win32
+		{096DE295-B159-455D-8BC0-F79C004F92B4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{096DE295-B159-455D-8BC0-F79C004F92B4}.Debug|Win32.Build.0 = Debug|Win32
+		{096DE295-B159-455D-8BC0-F79C004F92B4}.Release|Win32.ActiveCfg = Release|Win32
+		{096DE295-B159-455D-8BC0-F79C004F92B4}.Release|Win32.Build.0 = Release|Win32
+		{A3DF4541-78B4-456A-8A12-6E4E5D9BA280}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A3DF4541-78B4-456A-8A12-6E4E5D9BA280}.Debug|Win32.Build.0 = Debug|Win32
+		{A3DF4541-78B4-456A-8A12-6E4E5D9BA280}.Release|Win32.ActiveCfg = Release|Win32
+		{A3DF4541-78B4-456A-8A12-6E4E5D9BA280}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

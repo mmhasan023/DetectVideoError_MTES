@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SobelMagNPhase60", "SobelMagNPhase60.vcproj", "{B606DEF0-83C5-405C-B740-F615CA1CB944}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tan_table", "..\tan_table\tan_table.vcproj", "{18F8B9DC-A132-45A7-A94A-884A2D5C284D}"
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 3
+		SccProjectUniqueName0 = SobelMagNPhase60.vcproj
+		SccLocalPath0 = ..\\..
+		SccProjectFilePathRelativizedFromConnection0 = VCRHeaderBlockiness\\SobelMagNPhase60\\
+		SccProjectUniqueName1 = ..\\tan_table\\tan_table.vcproj
+		SccLocalPath1 = ..\\..
+		SccProjectFilePathRelativizedFromConnection1 = VCRHeaderBlockiness\\tan_table\\
+		SccProjectName2 = \u0022$/02.Project/DetectVideoError_MTES/MTES_FMS/VideoError/Source/VCRHeaderBlockiness/SobelMagNPhase60\u0022,\u0020XIBAAAAA
+		SccLocalPath2 = ..\\..
+		SccProvider2 = MSSCCI:Microsoft\u0020Visual\u0020SourceSafe
+		SccProjectFilePathRelativizedFromConnection2 = VCRHeaderBlockiness\\SobelMagNPhase60\\
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B606DEF0-83C5-405C-B740-F615CA1CB944}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B606DEF0-83C5-405C-B740-F615CA1CB944}.Debug|Win32.Build.0 = Debug|Win32
+		{B606DEF0-83C5-405C-B740-F615CA1CB944}.Release|Win32.ActiveCfg = Release|Win32
+		{B606DEF0-83C5-405C-B740-F615CA1CB944}.Release|Win32.Build.0 = Release|Win32
+		{18F8B9DC-A132-45A7-A94A-884A2D5C284D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{18F8B9DC-A132-45A7-A94A-884A2D5C284D}.Debug|Win32.Build.0 = Debug|Win32
+		{18F8B9DC-A132-45A7-A94A-884A2D5C284D}.Release|Win32.ActiveCfg = Release|Win32
+		{18F8B9DC-A132-45A7-A94A-884A2D5C284D}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

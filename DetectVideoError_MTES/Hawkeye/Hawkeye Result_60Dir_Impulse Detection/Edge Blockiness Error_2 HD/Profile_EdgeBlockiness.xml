@@ -1,0 +1,15 @@
+
+
+<?xml version="1.0" encoding="utf-8" ?>
+<checkprofile>
+	<checkvideo>
+		<item active="1" id="0x00000001" name="Edge Blockiness Errors">
+			<state>Edge_Blockiness_Errors</state>
+			<options count="3">
+				<option flag="User Setting" index="0" name="None detect start ratio" value="0"></option>
+				<option flag="User Setting" index="1" name="None detect end ratio" value="0"></option>
+				<option flag="commbo" index="2" name="Pulse signal detect ratio" value="90"></option>
+			</options>
+		</item>
+	</checkvideo>
+</checkprofile>

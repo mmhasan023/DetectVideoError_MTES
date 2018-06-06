@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- Mediachorus Inc,. Hawkeye,. Video Error Detection System -->
+<!-- Algorithm Method List -->
+<algorithm-method-list>
+	<algorithm-method index="10" file="BlockError.dll" flag="0x00020000" common="0x00000001" type="video">
+		<open>MCQA_BlockOpen</open>
+		<function>MCQA_Block</function>
+		<close>MCQA_BlockClose</close>
+		<callback>MCQA_BlockSetCallback</callback>
+		<finished-stream>MCQA_BlockFinishedStream</finished-stream>
+		<set-option>MCQA_BlockSetOption</set-option>
+	</algorithm-method>
+	<algorithm-method index="0" file="VCRHeaderBlock.dll" flag="0x00000002" common="0x00000001" type="video">
+		<open>MCQA_VCRHeaderBlockOpen</open>
+		<function>MCQA_VCRHeaderBlock</function>
+		<close>MCQA_VCRHeaderBlockClose</close>
+		<callback>MCQA_VCRHeaderBlockSetCallback</callback>
+		<finished-stream>MCQA_VCRHeaderBlockFinishedStream</finished-stream>
+		<set-option>MCQA_VCRHeaderBlockSetOption</set-option>
+	</algorithm-method>
+	<algorithm-method index="0" file="EdgeBlock.dll" flag="0x00000001" common="0x00000001" type="video">
+		<open>MCQA_EdgeBlockOpen</open>
+		<function>MCQA_EdgeBlock</function>
+		<close>MCQA_EdgeBlockClose</close>
+		<callback>MCQA_EdgeBlockSetCallback</callback>
+		<finished-stream>MCQA_EdgeBlockFinishedStream</finished-stream>
+		<set-option>MCQA_EdgeBlockSetOption</set-option>
+	</algorithm-method>
+	<algorithm-method index="6" file="FreezeFrame.dll" flag="0x00004000" common="0x00000009" type="video">
+		<open>MCQA_FreezeFrameOpen</open>
+		<function>MCQA_FreezeFrame</function>
+		<close>MCQA_FreezeFrameClose</close>
+		<callback>MCQA_FreezeFrameSetCallback</callback>
+		<finished-stream>MCQA_FreezeFrameFinishedStream</finished-stream>
+		<set-option>MCQA_FreezeFrameSetOption</set-option>
+	</algorithm-method>
+	<algorithm-method index="1" file="BlackFrame.dll" flag="0x00000004" common="0x00000000" type="video">
+		<open>MCQA_BlackFrameOpen</open>
+		<function>MCQA_BlackFrame</function>
+		<close>MCQA_BlackFrameClose</close>
+		<callback>MCQA_BlackFrameSetCallback</callback>
+		<finished-stream>MCQA_BlackFrameFinishedStream</finished-stream>
+		<set-option>MCQA_BlackFrameSetOption</set-option>
+	</algorithm-method>
+	<algorithm-method index="2" file="AudioMute.dll" flag="0x00000008" type="audio">
+		<open>MCQA_AudioMuteOpen</open>
+		<function>MCQA_AudioMute</function>
+		<close>MCQA_AudioMuteClose</close>
+		<callback>MCQA_AudioMuteSetCallback</callback>
+		<finished-stream>MCQA_AudioMuteFinishedStream</finished-stream>
+		<set-option>MCQA_AudioMuteSetOption</set-option>
+	</algorithm-method>
+	<algorithm-method index="3" file="AudioGain.dll" flag="0x00000010" type="audio">
+		<open>MCQA_AudioGainOpen</open>
+		<function>MCQA_AudioGain</function>
+		<close>MCQA_AudioGainClose</close>
+		<callback>MCQA_AudioGainSetCallback</callback>
+		<finished-stream>MCQA_AudioGainFinishedStream</finished-stream>
+	</algorithm-method>
+	<algorithm-method index="4" file="BlockStripe.dll" flag="0x00000440" common="0x00000001" type="video">
+		<open>MCQA_BlockStripeOpen</open>
+		<function>MCQA_BlockStripe</function>
+		<close>MCQA_BlockStripeClose</close>
+		<callback>MCQA_BlockStripeSetCallback</callback>
+		<finished-stream>MCQA_BlockStripeFinishedStream</finished-stream>
+		<set-option>MCQA_BlockStripeSetOption</set-option>
+	</algorithm-method>
+	<algorithm-method index="5" file="ColorBars.dll" flag="0x00000800" common="0x00000001" type="video">
+		<open>MCQA_ColorBarsOpen</open>
+		<function>MCQA_ColorBars</function>
+		<close>MCQA_ColorBarsClose</close>
+		<callback>MCQA_ColorBarsSetCallback</callback>
+		<finished-stream>MCQA_ColorBarsFinishedStream</finished-stream>
+		<set-option>MCQA_ColorBarsSetOption</set-option>
+	</algorithm-method>
+	<algorithm-method index="7" file="Interlace.dll" flag="0x00008000" common="0x00000001" type="video">
+		<open>MCQA_InterlaceOpen</open>
+		<function>MCQA_Interlace</function>
+		<close>MCQA_InterlaceClose</close>
+		<callback>MCQA_InterlaceSetCallback</callback>
+		<finished-stream>MCQA_InterlaceFinishedStream</finished-stream>
+	</algorithm-method>
+	<algorithm-method index="8" file="AudioFreq.dll" flag="0x00001000" type="audio">
+		<open>MCQA_AudioFreqOpen</open>
+		<function>MCQA_AudioFreq</function>
+		<close>MCQA_AudioFreqClose</close>
+		<callback>MCQA_AudioFreqSetCallback</callback>
+		<finished-stream>MCQA_AudioFreqFinishedStream</finished-stream>
+		<set-option>MCQA_AudioFreqSetOption</set-option>
+	</algorithm-method>
+	<algorithm-method index="9" file="VolumeDrop.dll" flag="0x00010000" type="audio">
+		<open>MCQA_VolumeDropOpen</open>
+		<function>MCQA_VolumeDrop</function>
+		<close>MCQA_VolumeDropClose</close>
+		<callback>MCQA_VolumeDropSetCallback</callback>
+		<finished-stream>MCQA_VolumeDropFinishedStream</finished-stream>
+		<set-option>MCQA_VolumeDropSetOption</set-option>
+	</algorithm-method>
+	<algorithm-method index="11" file="AudioLevel.dll" flag="0x00040000" type="audio">
+		<open>MCQA_AudioLevelOpen</open>
+		<function>MCQA_AudioLevel</function>
+		<close>MCQA_AudioLevelClose</close>
+		<callback>MCQA_AudioLevelSetCallback</callback>
+		<finished-stream>MCQA_AudioLevelFinishedStream</finished-stream>
+		<set-option>MCQA_AudioLevelSetOption</set-option>
+	</algorithm-method>
+	<algorithm-method index="12" file="LatterBox.dll" flag="0x01000000" common="0x00000001" type="video">
+		<open>MCQA_LatterBoxOpen</open>
+		<function>MCQA_LatterBox</function>
+		<close>MCQA_LatterBoxClose</close>
+		<callback>MCQA_LatterBoxSetCallback</callback>
+		<finished-stream>MCQA_LatterBoxFinishedStream</finished-stream>
+		<set-option>MCQA_LatterBoxSetOption</set-option>
+	</algorithm-method>
+	<algorithm-method index="13" file="AudioAttack.dll" flag="0x00080000" type="audio">
+		<open>MCQA_AudioAttackOpen</open>
+		<function>MCQA_AudioAttack</function>
+		<close>MCQA_AudioAttackClose</close>
+		<callback>MCQA_AudioAttackSetCallback</callback>
+		<finished-stream>MCQA_AudioAttackFinishedStream</finished-stream>
+		<set-option>MCQA_AudioAttackSetOption</set-option>
+	</algorithm-method>
+	<algorithm-method index="14" file="BrightnessLevels.dll" flag="0x02000000" common="0x00000001" type="video">
+		<open>MCQA_BrightnessLevelsOpen</open>
+		<function>MCQA_BrightnessLevels</function>
+		<close>MCQA_BrightnessLevelsClose</close>
+		<callback>MCQA_BrightnessLevelsSetCallback</callback>
+		<finished-stream>MCQA_BrightnessLevelsFinishedStream</finished-stream>
+		<set-option>MCQA_BrightnessLevelsSetOption</set-option>
+	</algorithm-method>
+	<algorithm-method index="15" file="ContrastLevels.dll" flag="0x08000000" common="0x00000001" type="video">
+		<open>MCQA_ContrastLevelsOpen</open>
+		<function>MCQA_ContrastLevels</function>
+		<close>MCQA_ContrastLevelsClose</close>
+		<callback>MCQA_ContrastLevelsSetCallback</callback>
+		<finished-stream>MCQA_ContrastLevelsFinishedStream</finished-stream>
+		<set-option>MCQA_ContrastLevelsSetOption</set-option>
+	</algorithm-method>
+	<algorithm-method index="16" file="AudioFreq.dll" flag="0x00002000" type="audio">
+		<open>MCQA_AudioFreqOpen</open>
+		<function>MCQA_AudioHighFreq</function>
+		<close>MCQA_AudioFreqClose</close>
+		<callback>MCQA_AudioFreqSetCallback</callback>
+		<finished-stream>MCQA_AudioFreqFinishedStream</finished-stream>
+		<set-option>MCQA_AudioHighFreqSetOption</set-option>
+	</algorithm-method>
+	<algorithm-method index="17" file="SingleColorFrame.dll" flag="0x00000100" common="0x00000002" type="video">
+		<open>MCQA_SingleColorFrameOpen</open>
+		<function>MCQA_SingleColorFrame</function>
+		<close>MCQA_SingleColorFrameClose</close>
+		<callback>MCQA_SingleColorFrameSetCallback</callback>
+		<finished-stream>MCQA_SingleColorFrameFinishedStream</finished-stream>
+		<set-option>MCQA_SingleColorFrameSetOption</set-option>
+	</algorithm-method>
+	<algorithm-method index="18" file="StripeError.dll" flag="0x00000080" common="0x00000001" type="video">
+		<open>MCQA_StripeErrorOpen</open>
+		<function>MCQA_StripeError</function>
+		<close>MCQA_StripeErrorClose</close>
+		<callback>MCQA_StripeErrorSetCallback</callback>
+		<finished-stream>MCQA_StripeErrorFinishedStream</finished-stream>
+		<set-option>MCQA_StripeErrorSetOption</set-option>
+	</algorithm-method>
+	<algorithm-method index="19" file="SamplingRateError.dll" flag="0x00100000" type="audio">
+		<open>MCQA_SamplingRateErrorOpen</open>
+		<function>MCQA_SamplingRateError</function>
+		<close>MCQA_SamplingRateErrorClose</close>
+		<callback>MCQA_SamplingRateErrorSetCallback</callback>
+		<finished-stream>MCQA_SamplingRateErrorFinishedStream</finished-stream>
+		<set-option>MCQA_SamplingRateErrorSetOption</set-option>
+	</algorithm-method>
+	<algorithm-method index="21" file="Blockiness.dll" flag="0x00C00000" common="0x00000001" type="video">
+		<open>MCQA_BlockinessOpen</open>
+		<function>MCQA_Blockiness</function>
+		<close>MCQA_BlockinessClose</close>
+		<callback>MCQA_BlockinessSetCallback</callback>
+		<finished-stream>MCQA_BlockinessFinishedStream</finished-stream>
+		<set-option>MCQA_BlockinessSetOption</set-option>
+	</algorithm-method>
+	<algorithm-method index="22" file="FlickeringEffect.dll" flag="0x00000020" common="0x00000002" type="video">
+		<open>MCQA_FlickeringEffectOpen</open>
+		<function>MCQA_FlickeringEffect</function>
+		<close>MCQA_FlickeringEffectClose</close>
+		<callback>MCQA_FlickeringEffectSetCallback</callback>
+		<finished-stream>MCQA_FlickeringEffectFinishedStream</finished-stream>
+		<set-option>MCQA_FlickeringEffectSetOption</set-option>
+	</algorithm-method>
+	<algorithm-method index="23" file="DropFrame.dll" flag="0x10000000" common="0x00000000" type="video">
+		<open>MCQA_DropFrameOpen</open>
+		<function>MCQA_DropFrame</function>
+		<close>MCQA_DropFrameClose</close>
+		<callback>MCQA_DropFrameSetCallback</callback>
+		<finished-stream>MCQA_DropFrameFinishedStream</finished-stream>
+		<set-option>MCQA_DropFrameSetOption</set-option>
+	</algorithm-method>
+</algorithm-method-list>
